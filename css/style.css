@@ -465,6 +465,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*--------------------------------------------------------------
 # Intro Section
 --------------------------------------------------------------*/
+#intro {
+  width: 100%;
+  height: 100vh;
+  background: url(../img/intro-bg.jpg) top center;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  transition: background-image 1s ease-in-out;
+}
 
 #intro {
   width: 100%;
