@@ -1,7 +1,7 @@
 
   // Array of background images
   const images = [
-    "../img/intro-bg1.jpg",
+    "SASIGD/img/intro-bg1.jpg",
     "../img/intro-bg2.jpg",
     "../img/intro-bg3.jpg"
   ];
