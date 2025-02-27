@@ -1,0 +1,105 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f5f9ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+
+
+.section-title {
+    font-size: 32px;
+    font-weight: 600;
+    color: #123456;
+    margin-bottom: 30px;
+}
+
+.tracks-container {
+    width: 80%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.track-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.light-blue {
+    background: #f0f7ff;
+}
+
+.light-green {
+    background: #ecf9ec;
+}
+
+.track-left img,
+.track-right img {
+    width: 180px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.track-content {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.track-content h2 {
+    color: #123456;
+    font-size: 22px;
+}
+
+.track-content p {
+    font-size: 14px;
+    color: #555;
+}
+
+.know-more {
+    background: #2cb57e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.know-more {
+    background-color: #0a6b55!important; /* Green background */
+    color: white !important;
+    padding: 10px 20px !important;
+    border-radius: 5px !important;
+    border: none !important;
+    font-size: 16px !important;
+    font-weight: bold !important;
+    text-transform: uppercase !important;
+    cursor: pointer !important;
+    transition: background-color 0.3s ease, transform 0.2s ease !important;
+    display: inline-block !important;
+    text-align: center !important;
+    text-decoration: none !important; /* Remove underline */
+}
+
+.know-more:hover {
+    background-color: #0a6b55 !important; /* Darker green on hover */
+    transform: scale(1.05) !important;
+}
+
